@@ -62,4 +62,3 @@ MAX_HAUTEUR_FLECHE = 3
 
 # Gravite de la Lune
 GRAVITE_TERRE = 9.81
-
