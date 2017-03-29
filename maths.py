@@ -111,4 +111,8 @@ def fonctionNormale(x, u):
 
 
 def calculVarianceScore(score_individus, score_moyenne):
-    return
+    tableau_variance = []
+    for individu in score_individus.values():
+        tableau_variance.append((individu - score_moyenne) ** 2)
+    variance = sum(tableau_variance) / len(tableau_variance)
+    return variance

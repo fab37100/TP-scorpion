@@ -1,8 +1,8 @@
 # Nombre de la population
-NB_POPULATION = 2000
+NB_POPULATION = 1000
 
 # Nombre de génération maximale
-NB_GEN = 100
+NB_GEN = 200
 
 # Distance de la cible en metre
 DISTANCE_CIBLE = 301
@@ -13,8 +13,8 @@ COUPE_CROISEMENT = 4
 # Score maximal pouvant être atteint par la fitness
 MAX_SCORE_FITNESS = 1000
 
-# Pourcentage de mutation des enfants 5%
-POURCENTAGE_MUTATION = 5
+# Pourcentage de mutation des enfants 1%
+POURCENTAGE_MUTATION = 0.001
 
 # Angle de hausse (degre) : 0 - 85
 MIN_ANGLE_HAUSSE = 1
