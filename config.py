@@ -2,7 +2,7 @@
 NB_POPULATION = 2000
 
 # Nombre de génération maximale
-NB_GEN = 100
+NB_GEN = 200
 
 # Distance de la cible en metre
 DISTANCE_CIBLE = 301
