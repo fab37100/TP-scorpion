@@ -95,7 +95,7 @@ def scoreIndividu(calcul_portee, calcul_tnt, calcul_longueur_deplacement, calcul
     # Concernant le score de la portée, elle est attribuée avec une fonction "Normale" légérement modifiée et evaluée sur score de 1000
     # Si un individu tire à moins de 50cm de la cible alors un boost de 1000 point lui est attribué
     if abs(calcul_portee - config.DISTANCE_CIBLE) <= 0.5:
-        score_individu = maths.fonctionNormale(calcul_portee, config.DISTANCE_CIBLE) + calcul_tnt + 100
+        score_individu = maths.fonctionNormale(calcul_portee, config.DISTANCE_CIBLE) + calcul_tnt + 1000
     else:
         score_individu = maths.fonctionNormale(calcul_portee, config.DISTANCE_CIBLE) + calcul_tnt
     # Si le calcul de la longueur de déplacement et plus grand que le calcul de la fleche du bras maximum
