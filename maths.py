@@ -105,7 +105,7 @@ def regleMetierIndividu(individu):
 # 0.05 est ajoute au score final afin d'eviter de mettre un score de 0 au individu tirant loin de la cible
 def fonctionNormale(x, u):
     # Le sigma est divisé par 20 afin d'avoir une courbe exponentielle importante
-    sigma = u / 20
+    sigma = u / 7
     f = (math.exp(-1 / 2 * math.pow(((x - u) / sigma), 2))) * config.MAX_SCORE_FITNESS + 0.05
     return f
 
