@@ -2,7 +2,7 @@
 NB_POPULATION = 2000
 
 # Nombre de génération maximale
-NB_GEN = 200
+NB_GEN = 500
 
 # Distance de la cible en metre
 DISTANCE_CIBLE = 301
@@ -10,11 +10,11 @@ DISTANCE_CIBLE = 301
 # Chance de croisement autre que la moitié
 COUPE_CROISEMENT = 4
 
-# Score maximal pouvant être atteint par la fitness
+# Score maximal pouvant être atteint par le score de la portée
 MAX_SCORE_FITNESS = 1000
 
 # Pourcentage de mutation des enfants 3%
-POURCENTAGE_MUTATION = 3
+POURCENTAGE_MUTATION = 0.5
 
 # Angle de hausse (degre) : 0 - 85
 MIN_ANGLE_HAUSSE = 1
@@ -60,5 +60,5 @@ MAX_BASE_FLECHE = 2
 MIN_HAUTEUR_FLECHE = 1
 MAX_HAUTEUR_FLECHE = 3
 
-# Gravite de la Lune
+# Gravite de la Terre
 GRAVITE_TERRE = 9.81
